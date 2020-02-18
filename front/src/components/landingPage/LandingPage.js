@@ -13,13 +13,14 @@ class LandingPage extends Component {
     render() {
         return (
             <div className="circus-body">
-                
+
                 <div className="circus-title">
-                <img className="circus-logo" src={logo} al t='circ'></img>
+                    <img className="circus-logo" src={logo} al t='circ'></img>
                     <h1>Wild Circus</h1>
                     {/* <h2>circus</h2> */}
                 </div>
-                <div className="circus-navbar"> 
+
+                <div className="circus-navbar">
                     <ul>
                         <li><a href="#">Performances</a></li>
                         <li><a href="#">About Us</a></li>

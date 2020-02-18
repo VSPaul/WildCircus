@@ -14,8 +14,8 @@ class Footer extends Component {
         return (
             <div className="circus-footer">
                 <div className="circus-footer-title">
-                    <h1>Wild</h1>
-                    <h2>circus</h2>
+                    <h1>Wild Circus</h1>
+                    {/* <h2>circus</h2> */}
                     <h4>Wild Circus by <b>Vascu Paul</b></h4>
                     <h5>Wild Code School - 20.02.2020</h5>
                 </div>

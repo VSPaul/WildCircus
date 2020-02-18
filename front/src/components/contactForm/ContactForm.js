@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './ContactForm.css';
 import LandingPage from '../landingPage/LandingPage';
-import logo from '../assets/logo1.png';
+import logo6 from '../assets/logo1.png';
 import logo2 from '../assets/cortcut.png';
 
 
@@ -17,10 +17,17 @@ class ContactForm extends Component {
         return (
             <div className="circus-form-body">
                 <div className="circus-form-title">
-                    <img className="circus-form-logo" src={logo} al t='circ'></img>
+                    <img className="circus-form-logo" src={logo6} al t='circ'></img>
                     <h1>Wild Circus</h1>
                     {/* <h2>circus</h2> */}
-
+                </div>
+                <div className="circus-form-navbar">
+                    <ul>
+                        <li><a href="#">Performances</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Prices</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
                 </div>
 
                 <div id="container">
