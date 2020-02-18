@@ -65,7 +65,7 @@
     height: 15vh;
     display: flex;
     justify-content: center;
-    margin-top: 10px
+    margin-top: -10px
 }
 
 .circus-body .circus-navbar ul {
