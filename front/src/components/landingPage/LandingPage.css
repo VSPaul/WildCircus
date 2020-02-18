@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Jacques+Francois+Shadow');
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+/* Logo */
+
+.circus-body * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.circus-body {
+    /* background-image: url("../assets/vector.jpg"); */
+    /* background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(94, 94, 94, 1) 61%, rgba(255, 252, 252, 1) 100%); */
+    background: rgb(42, 82, 100);
+    background: linear-gradient(180deg, rgba(42, 82, 100, 0.8687850140056023) 54%, rgba(57, 116, 143, 0.8071603641456583) 75%, rgba(255, 252, 252, 0.8379726890756303) 99%);
+    /* background-color: black; */
+    border: none;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.circus-logo {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    /* position: relative; */
+    justify-content: center!important;
+    align-items: center!important;
+    margin: 0;
+    padding: 0;
+}
+
+.circus-body .circus-title {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.circus-body .circus-title h1 {
+    color: rgb(224, 60, 55);
+    font-family: 'Ewert', cursive;
+    font-size: 80px;
+    letter-spacing: 2;
+    font-weight: 100;
+}
+
+
+/* .circus-body .circus-title h2 {
+    color: rgb(240, 81, 34);
+    font-family: 'Ewert', cursive;
+    font-size: 40px;
+    font-weight: 100;
+} */
+
+
+/* NavBar */
+
+.circus-body .circus-navbar {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px
+}
+
+.circus-body .circus-navbar ul {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.circus-body .circus-navbar ul li {
+    font-size: 50px;
+    list-style: none;
+}
+
+.circus-body .circus-navbar ul li a {
+    color: blanchedalmond;
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-family: 'Amatic SC', cursive;
+    /* font-family: 'Montserrat', Arial, sans-serif; */
+    padding: 0 20px;
+}
+
+.circus-body .circus-navbar ul li a:hover {
+    /* transition: .5s ease; */
+    color: rgb(224, 60, 55);
+}
