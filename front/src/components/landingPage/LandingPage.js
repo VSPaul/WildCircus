@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './LandingPage.css';
 import logo from '../assets/logo1.png';
+import ScrollableAnchor from 'react-scrollable-anchor'
 
 
 class LandingPage extends Component {
@@ -22,10 +23,10 @@ class LandingPage extends Component {
 
                 <div className="circus-navbar">
                     <ul>
-                        <li><a href="#">Performances</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Prices</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#section1">Performances</a></li>
+                        <li><a href="#section3">About Us</a></li>
+                        <li><a href="#section2">Prices</a></li>
+                        <li><a href="#section4">Contact</a></li>
                     </ul>
                 </div>
 
